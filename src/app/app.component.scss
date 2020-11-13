@@ -62,14 +62,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 250px;
 }
 
-/* Pagination */
-.blog-pagination {
-    margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-    border-radius: 2rem;
-}
-
 /*
 * Blog posts
 */
@@ -89,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 * Footer
 */
 .blog-footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 15px 15px;
@@ -110,10 +102,6 @@ h1, h2, h3, h4, h5, h6 {
 .blog-about {
     position: absolute;
     left: 110px;
-
-    &::before {
-        content: 'About';
-    }
 }
 
 .blog-search {
@@ -134,23 +122,80 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.blog-subscribe {
-    &::before {
-        content: 'Subscribe';
-    }
-}
-
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
 .dropdown-menu {
     width: 10px;
-    min-width: 50px;
+    padding-left: 5px;
+    
+    &.en {
+        min-width: 120px;
+    }
+
+    &.ja {
+        min-width: 180px;
+    }
+
+    &.zh_hant {
+        min-width: 150px;
+    }
 }
 
 .dropdown-item {
     padding-left: 5px;
+    cursor: pointer;
+}
+
+.blog-catagory-travel {
+    &.active {
+        color: dodgerblue !important;
+
+        &::before {
+            content: "\261B";
+        }
+    }
+}
+
+.blog-catagory-language {
+    &.active {
+        color: dodgerblue !important;
+        
+        &::before {
+            content: "\261B";
+        }
+    }
+}
+
+.blog-subscribe {
+    &::after {
+        content: url($commonImgPath + 'email.svg');;
+    }
+
+    &.active {
+        color: dodgerblue !important;
+        
+        &::before {
+            content: "\2735";
+        }
+    }
+}
+
+.blog-about {
+    left: 60px;
+
+    &::after {
+        content: url($commonImgPath + 'account_box.svg');
+    }
+
+    &.active {
+        color: dodgerblue !important;
+        
+        &::before {
+            content: "\2735";
+        }
+    }
 }
 
 // Extra small devices
