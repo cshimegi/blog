@@ -46,5 +46,5 @@ export class AppModule { }
 
 // for i18n
 export function HttpLoaderFactory(http: HttpClient) {
-    return new TranslateHttpLoader(http);
+    return new TranslateHttpLoader(http, './assets/i18n/');
 }

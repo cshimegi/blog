@@ -1,0 +1,62 @@
+{
+    "SYSTEM": {
+        "I18N": {
+            "ENGLISH": {
+                "FULL": "英語",
+                "ABBR": "英"
+            },
+            "JAPANESE": {
+                "FULL": "日本語",
+                "ABBR": "日"
+            },
+            "CHINESE": {
+                "FULL": "中国語(繁)",
+                "ABBR": "中(繁)"
+            }
+        },
+        "CONTACT": {
+            "TITLE": "お問い合わせ",
+            "MESSAGE": "ご不明な点等ございましたら、こちらよりご連絡ください。",
+            "METHOD": {
+                "FACEBOOK": {
+                    "FULL": "Facebook",
+                    "ABBR": "FB",
+                    "CONTENT": "FBよりご連絡やコメントをお待ちしております。"
+                },
+                "LINE": {
+                    "FULL": "Line",
+                    "ABBR": "Line",
+                    "CONTENT": "ラインよりご連絡をお待ちしております。"
+                },
+                "PHONE": {
+                    "FULL": "電話",
+                    "ABBR": "Tel",
+                    "CONTENT": "電話番号は (+886)xx-xxx-xxx　です。 ご連絡をお待ちしております。"
+                }
+            }
+        }
+    },
+    "TITLE": {
+        "BLOG": "惠理のブログ"
+    },
+    "BUTTON": {
+        "LOGIN": "ログイン",
+        "REGISTER": "サインイン"
+    },
+    "LINK": {
+        "CONTINUE_READ": "続く..."
+    },
+    "NAVBAR": {
+        "SUBSCRIBE": "訂閱",
+        "ABOUT": "About",
+        "TRAVEL": "旅",
+        "LANGUAGE": "言語"
+    },
+    "DROPDOWN": {
+        "LANGUAGES": {
+            "ENGLISH": "英語(EN)",
+            "JAPANESE": "日本語(JP)",
+            "ZH_HANT": "中国語(繁/ZH-TW)"
+        }
+    }
+}

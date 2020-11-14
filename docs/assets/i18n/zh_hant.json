@@ -1,0 +1,62 @@
+{
+    "SYSTEM": {
+        "I18N": {
+            "ENGLISH": {
+                "FULL": "英文",
+                "ABBR": "英"
+            },
+            "JAPANESE": {
+                "FULL": "日文",
+                "ABBR": "日"
+            },
+            "CHINESE": {
+                "FULL": "中文(繁)",
+                "ABBR": "中(繁)"
+            }
+        },
+        "CONTACT": {
+            "TITLE": "聯絡我們",
+            "MESSAGE": "如有任何不清楚的地方，歡迎由以下的任一聯絡方式聯絡我們。",
+            "METHOD": {
+                "FACEBOOK": {
+                    "FULL": "Facebook",
+                    "ABBR": "FB",
+                    "CONTENT": "歡迎至我們的臉書官方網站留言或聯絡我們。"
+                },
+                "LINE": {
+                    "FULL": "Line",
+                    "ABBR": "Line",
+                    "CONTENT": "歡迎經由Line與我們聯絡。"
+                },
+                "PHONE": {
+                    "FULL": "電話",
+                    "ABBR": "Tel",
+                    "CONTENT": "電話號碼: (+886)xx-xxx-xxx。 歡迎於營業時間內隨時與我們聯絡。"
+                }
+            }
+        }
+    },
+    "TITLE": {
+        "BLOG": "惠理的部落格"
+    },
+    "BUTTON": {
+        "LOGIN": "登入",
+        "REGISTER": "註冊"
+    },
+    "LINK": {
+        "CONTINUE_READ": "接續閱讀..."
+    },
+    "NAVBAR": {
+        "SUBSCRIBE": "訂閱",
+        "ABOUT": "關於",
+        "TRAVEL": "旅遊",
+        "LANGUAGE": "語言"
+    },
+    "DROPDOWN": {
+        "LANGUAGES": {
+            "ENGLISH": "英文(EN)",
+            "JAPANESE": "日文(JP)",
+            "ZH_HANT": "中文(繁/ZH-TW)"
+        }
+    }
+}
