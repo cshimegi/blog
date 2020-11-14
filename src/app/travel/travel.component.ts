@@ -3,6 +3,7 @@ import { Blog } from '@app/_models_';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-travel',
@@ -19,7 +20,8 @@ export class TravelComponent implements OnInit {
 
     constructor(
         private http: HttpClient,
-        private translateService: TranslateService
+        private translateService: TranslateService,
+        private router: Router
     ) {
         this.appLang = this.translateService.getDefaultLang();
         this.blogDataUrl = 'assets/storages/blog.' + this.appLang + '.json';
@@ -39,4 +41,13 @@ export class TravelComponent implements OnInit {
         return this.http.get(this.blogDataUrl);
     }
 
+    /**
+     * Direct to this id blog detail
+     * 
+     * @param id blog id
+     */
+    public directToDetail(id: number): void
+    {
+        this.router.navigate(["travel/detail/" + id]);
+    }
 }

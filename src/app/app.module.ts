@@ -12,6 +12,7 @@ import { TravelComponent } from '@app/travel';
 import { LanguageComponent } from './language/language.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { AboutComponent } from './about/about.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { AboutComponent } from './about/about.component';
         TravelComponent,
         LanguageComponent,
         SubscribeComponent,
-        AboutComponent
+        AboutComponent,
+        DetailComponent
     ],
     imports: [
         BrowserModule,
