@@ -50,6 +50,17 @@ export class AppComponent {
                     : "en";
     }
 
+    public showLanguageMenus(): void
+    {
+        let menuElemClassList = document.getElementById("language-dropdown-menu").classList;
+
+        if (menuElemClassList.contains('show')) {
+            menuElemClassList.remove('show');
+        } else {
+            menuElemClassList.add('show');
+        }
+    }
+
     /**
      * Switch to selected lang
      * @params lang The langauge got from user's agent
