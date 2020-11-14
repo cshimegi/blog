@@ -1,0 +1,62 @@
+{
+    "SYSTEM": {
+        "I18N": {
+            "ENGLISH": {
+                "FULL": "English",
+                "ABBR": "EN"
+            },
+            "JAPANESE": {
+                "FULL": "Japanese",
+                "ABBR": "JP"
+            },
+            "CHINESE": {
+                "FULL": "Chinese(Hant)",
+                "ABBR": "ZH(Hant)"
+            }
+        },
+        "CONTACT": {
+            "TITLE": "Contact us",
+            "MESSAGE": "Do you have any questions? Please do not hesitate to contact us directly. We will reply to you soon.",
+            "METHOD": {
+                "FACEBOOK": {
+                    "FULL": "Facebook",
+                    "ABBR": "FB",
+                    "CONTENT": "Please contact us through facebook."
+                },
+                "LINE": {
+                    "FULL": "Line",
+                    "ABBR": "Line",
+                    "CONTENT": "Please contact us through Line."
+                },
+                "PHONE": {
+                    "FULL": "Phone",
+                    "ABBR": "Tel",
+                    "CONTENT": "This is our phone (+886)xx-xxx-xxx. Welcome to contact us immediately."
+                }
+            }
+        }
+    },
+    "TITLE": {
+        "BLOG": "Erin's Blog"
+    },
+    "BUTTON": {
+        "LOGIN": "Login",
+        "REGISTER": "Register"
+    },
+    "LINK": {
+        "CONTINUE_READ": "Continue reading..."
+    },
+    "NAVBAR": {
+        "SUBSCRIBE": "Subscribe",
+        "ABOUT": "About",
+        "TRAVEL": "Travel",
+        "LANGUAGE": "Language"
+    },
+    "DROPDOWN": {
+        "LANGUAGES": {
+            "ENGLISH": "English",
+            "JAPANESE": "Japanese",
+            "ZH_HANT": "Chinese-TW"
+        }
+    }
+}
