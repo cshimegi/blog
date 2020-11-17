@@ -2,9 +2,6 @@
   <div class="blog-post">
     <h2 class="blog-post-title">{{detail.title}}</h2>
     <p class="blog-post-meta">{{detail.date}}</p>
-    <div id="blog-post-body" class="blog-post-body" *ngFor="let c of detail.content">
-      <p *ngIf="c.tag === 'p'">{{c.text}}<br/></p>
-      <img class="blog-post-img" *ngIf="c.tag === 'img'" src="{{c.url}}">
-    </div>
+    <div id="blog-post-body" class="blog-post-body"></div>
   </div><!-- /.blog-post -->
 </div>

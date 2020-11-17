@@ -36,9 +36,6 @@
             }
         }
     },
-    "TITLE": {
-        "BLOG": "惠理的部落格"
-    },
     "BUTTON": {
         "LOGIN": "登入",
         "REGISTER": "註冊"
