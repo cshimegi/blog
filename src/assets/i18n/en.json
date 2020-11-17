@@ -36,9 +36,6 @@
             }
         }
     },
-    "TITLE": {
-        "BLOG": "Erin's Blog"
-    },
     "BUTTON": {
         "LOGIN": "Login",
         "REGISTER": "Register"

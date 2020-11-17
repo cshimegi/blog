@@ -36,9 +36,6 @@
             }
         }
     },
-    "TITLE": {
-        "BLOG": "惠理のブログ"
-    },
     "BUTTON": {
         "LOGIN": "ログイン",
         "REGISTER": "サインイン"
