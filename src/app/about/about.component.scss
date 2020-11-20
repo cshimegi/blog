@@ -47,7 +47,7 @@ small {
         }
 
         span {
-            width: 25%;
+            width: 15%;
 
             &.d-flex {
                 width: 30%;
@@ -69,5 +69,18 @@ li {
     span {
         position: relative;
         top: -6px;
+    }
+}
+
+.interest-group {
+    &.pc {
+        width: 300px;
+        float: left;
+    }
+}
+
+.contact-group {
+    &.pc {
+        width: 700px;
     }
 }

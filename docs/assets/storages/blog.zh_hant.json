@@ -1,5 +1,29 @@
 [
     {
+        "id": 2,
+        "tag": "trip",
+        "title": "高尾山-第一次爬山",
+        "date": "2020年11月15日（日）",
+        "introduction": "享受紅葉的秋天賞花",
+        "content": [
+            {"tag": "p", "text": "週末的時候，跟朋友們一起去高尾山。"},
+            {"tag": "p", "text": "下車後現場的氣氛很熱鬧，人山人海。然後看到很美的紅葉跟銀杏樹。"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-1.jpg", "alt": "takaosan-1"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-2.jpg", "alt": "takaosan-2"},
+            {"tag": "p", "text": "接著，我們坐登山吊椅到山頂附近，我們邊走邊享受風景，途中還有去廟拜拜一下。"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-3.jpg", "alt": "takaosan-3"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-4.jpg", "alt": "takaosan-4"},
+            {"tag": "p", "text": "過了一段時間後，終於到山頂跟大家一起拍照。"},
+            {"tag": "p", "text": "雖然人很多，但是享受到美麗的風景。"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-5.jpg", "alt": "takaosan-5"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-7.jpg", "alt": "takaosan-7"},
+            {"tag": "p", "text": "希望下次有機會再去一次。"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-6.jpg", "alt": "takaosan-6"}
+        ],
+        "link": "",
+        "thumbnail": "assets/images/category/travel.svg"
+    },
+    {
         "id": 1,
         "tag": "restaurant",
         "title": "野方希望拉麵-初體驗",

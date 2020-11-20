@@ -123,8 +123,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-about {
-    position: absolute;
-    left: 110px;
+    // position: absolute;
+    // left: 110px;
 }
 
 .blog-search {
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-subscribe {
     &::after {
-        content: url($commonImgPath + 'email.svg');;
+        content: url($commonImgPath + 'email.svg');
     }
 
     &.active {
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-about {
-    left: 60px;
+    // left: 60px;
 
     &::after {
         content: url($commonImgPath + 'account_box.svg');
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 // Extra small devices
 @media (max-width: 575.98px) {
     .blog-header-logo {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .display-4 {
@@ -244,6 +244,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .blog-about {
-        left: 60px;
+        // left: 60px;
     }
 }
