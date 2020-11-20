@@ -1,0 +1,16 @@
+.bgimg{
+    position: relative;
+    width: 100%;
+    min-height: 800px;
+    background-image: url("../../assets/images/common/bird.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.message {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}

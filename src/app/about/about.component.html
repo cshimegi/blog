@@ -16,30 +16,28 @@
               </small>
             </div>
 
-            <div class="interest-group">
+            <div class="interest-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">Interests</h5>
               <ul class="interest-menu">
-                <li class="interest-item"><span>test1</span></li>
-                <li class="interest-item"><span>test2</span></li>
+                <li class="interest-item"><span>Singing</span></li>
+                <li class="interest-item"><span>Taste delicious foods</span></li>
+                <li class="interest-item"><span>Taiwan</span></li>
+                <li class="interest-item"><span>Taiwan Mandarin</span></li>
+                <li class="interest-item"><span>Machiko</span></li>
               </ul>
             </div>
             
-            <div class="contact-group">
+            <div class="contact-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">Contact</h5>
-              <div class="email">
-                <span class="btn btn-outline-info btn-sm"
-                      [ngClass]="{'d-flex': isMobile}">Email</span>
-                <a class="link">email@example.com</a>
-              </div>
               <div class="facebook">
                 <span class="btn btn-outline-primary btn-sm"
                       [ngClass]="{'d-flex': isMobile == true}">Facebook</span>
-                <a class="link">email@example.com</a>
+                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
               </div>
               <div class="instgram">
                 <span class="btn btn-outline-secondary btn-sm"
                       [ngClass]="{'d-flex': isMobile == true}">Instgram</span>
-                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
+                <a class="link" href="https://www.instagram.com/huililovetaiwan/" target="_blank">Huili</a>
               </div>
             </div>
             <!-- contact-group -->
@@ -65,16 +63,17 @@
               </small>
             </div>
 
-            <div class="interest-group">
+            <div class="interest-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">Interests</h5>
               <ul class="interest-menu">
                 <li class="interest-item"><span>Mathematica</span></li>
                 <li class="interest-item"><span>Physics</span></li>
                 <li class="interest-item"><span>Computer Science</span></li>
+                <li class="interest-item"><span>Programming</span></li>
               </ul>
             </div>
             
-            <div class="contact-group">
+            <div class="contact-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">Contact</h5>
               <div class="email">
                 <span class="btn btn-outline-info btn-sm"
@@ -123,27 +122,25 @@
             <div class="interest-group">
               <h5 class="title">趣味</h5>
               <ul class="interest-menu">
-                <li class="interest-item"><span>test1</span></li>
-                <li class="interest-item"><span>test2</span></li>
+                <li class="interest-item"><span>カラオケ</span></li>
+                <li class="interest-item"><span>美食</span></li>
+                <li class="interest-item"><span>台湾華語</span></li>
+                <li class="interest-item"><span>中国語</span></li>
+                <li class="interest-item"><span>Machiko</span></li>
               </ul>
             </div>
             
             <div class="contact-group">
               <h5 class="title">コンタクト</h5>
-              <div class="email">
-                <span class="btn btn-outline-info btn-sm"
-                      [ngClass]="{'d-flex': isMobile}">Eメール</span>
-                <a class="link">email@example.com</a>
-              </div>
               <div class="facebook">
                 <span class="btn btn-outline-primary btn-sm"
                       [ngClass]="{'d-flex': isMobile == true}">フェースブック</span>
-                <a class="link">email@example.com</a>
+                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
               </div>
               <div class="instgram">
                 <span class="btn btn-outline-secondary btn-sm"
                       [ngClass]="{'d-flex': isMobile == true}">インスタグラム</span>
-                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
+                <a class="link" href="https://www.instagram.com/huililovetaiwan/" target="_blank">Huili</a>
               </div>
             </div>
             <!-- contact-group -->
@@ -175,6 +172,7 @@
                 <li class="interest-item"><span>数学</span></li>
                 <li class="interest-item"><span>物理</span></li>
                 <li class="interest-item"><span>コンピューター科学</span></li>
+                <li class="interest-item"><span>プログラミング</span></li>
               </ul>
             </div>
             
@@ -216,7 +214,7 @@
           </div>
           <div class="col-sm-4 col-md-6 person-info">
             <div class="basic-info-group">
-              <h4>児玉惠理</h4>
+              <h4>Huili</h4>
               <small class="location">
                 <cite title="日本東京">日本東京
                   <i class="glyphicon glyphicon-map-marker"></i>
@@ -227,27 +225,25 @@
             <div class="interest-group">
               <h5 class="title">興趣</h5>
               <ul class="interest-menu">
-                <li class="interest-item"><span>test1</span></li>
-                <li class="interest-item"><span>test2</span></li>
+                <li class="interest-item"><span>唱歌</span></li>
+                <li class="interest-item"><span>品嘗美食</span></li>
+                <li class="interest-item"><span>臺灣</span></li>
+                <li class="interest-item"><span>中文</span></li>
+                <li class="interest-item"><span>ㄇㄚˊ幾兔</span></li>
               </ul>
             </div>
             
             <div class="contact-group">
               <h5 class="title">聯絡資訊</h5>
-              <div class="email">
-                <span class="btn btn-outline-info btn-sm"
-                      [ngClass]="{'d-flex': isMobile}">電子郵件</span>
-                <a class="link">email@example.com</a>
-              </div>
               <div class="facebook">
                 <span class="btn btn-outline-primary btn-sm"
                       [ngClass]="{'d-flex': isMobile == true}">臉書</span>
-                <a class="link">email@example.com</a>
+                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
               </div>
               <div class="instgram">
                 <span class="btn btn-outline-secondary btn-sm"
                       [ngClass]="{'d-flex': isMobile == true}">IG</span>
-                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
+                <a class="link" href="https://www.instagram.com/huililovetaiwan/" target="_blank">Huili</a>
               </div>
             </div>
             <!-- contact-group -->
@@ -279,6 +275,7 @@
                 <li class="interest-item"><span>數學</span></li>
                 <li class="interest-item"><span>物理</span></li>
                 <li class="interest-item"><span>電腦科学</span></li>
+                <li class="interest-item"><span>程式語言</span></li>
               </ul>
             </div>
             
