@@ -1,5 +1,29 @@
 [
     {
+        "id": 2,
+        "tag": "trip",
+        "title": "高尾山-初めての山登り",
+        "date": "2020年11月15日（日）",
+        "introduction": "紅葉を堪能する秋のお花見",
+        "content": [
+            {"tag": "p", "text": "今週末、友人と一緒に高尾山へ行って来ました。"},
+            {"tag": "p", "text": "駅から降りた後辺りは大勢の人で賑わっていました。そして何より銀杏の木と紅葉が本当綺麗でした。"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-1.jpg", "alt": "takaosan-1"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-2.jpg", "alt": "takaosan-2"},
+            {"tag": "p", "text": "その後私達はリフトに乗り山頂付近まで行き、山頂まで歩きながら景色を楽しんだり、"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-3.jpg", "alt": "takaosan-3"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-4.jpg", "alt": "takaosan-4"},
+            {"tag": "p", "text": "途中でお寺でお参りをしてようやく山頂に到着し、"},
+            {"tag": "p", "text": "みんなで一緒に写真をとりました。人は多かったけどその分景色を楽しむことが出来て本当に良かったです。"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-5.jpg", "alt": "takaosan-5"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-7.jpg", "alt": "takaosan-7"},
+            {"tag": "p", "text": "機会があればまた行きたいです。"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-6.jpg", "alt": "takaosan-6"}
+        ],
+        "link": "",
+        "thumbnail": "assets/images/category/travel.svg"
+    },
+    {
         "id": 1,
         "tag": "restaurant",
         "title": "野方ホープ-初体験",

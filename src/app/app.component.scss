@@ -6,7 +6,7 @@ $commonImgPath: "../assets/images/common/";
 }
 
 .blog-header-logo {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
     font-size: 2.25rem;
 }
 
@@ -15,7 +15,7 @@ $commonImgPath: "../assets/images/common/";
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif !important;
 }
 
 .display-4 {
@@ -98,14 +98,26 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
 
     &.en {
-        left: 70px;
+        &.active {
+            left: 70px;
+        }
+
+        left: 80px;
     }
 
     &.ja {
+        &.active {
+            left: 40px;
+        }
+
         left: 50px;
     }
 
     &.zh_hant {
+        &.active {
+            left: 60px;
+        }
+
         left: 70px;
     }
 }

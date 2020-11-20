@@ -1,5 +1,30 @@
 [
     {
+        "id": 2,
+        "tag": "trip",
+        "title": "Mount Takao-1st Time Hiking",
+        "date": "2020/11/15 Sunday",
+        "introduction": "Enjoy autumn foliage",
+        "content": [
+            {"tag": "p", "text": "In the weekend, we went to Mount Takao with our friends."},
+            {"tag": "p", "text": "Huge throngs gathered at the Takao Yamaguchi station and there were lots of autumn colors and ginkgo trees."},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-1.jpg", "alt": "takaosan-1"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-2.jpg", "alt": "takaosan-2"},
+            {"tag": "p", "text": "We toke chairlifts up to a place neat to top. Then, we walked and enjoyed glamorous scenery."},
+            {"tag": "p", "text": "We also dropped by a temple and prayed."},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-3.jpg", "alt": "takaosan-3"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-4.jpg", "alt": "takaosan-4"},
+            {"tag": "p", "text": "After hiking for a while, we arrived at the top and took a picture."},
+            {"tag": "p", "text": "Although there was packed with people, the scenery was charming."},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-5.jpg", "alt": "takaosan-5"},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-7.jpg", "alt": "takaosan-7"},
+            {"tag": "p", "text": "It was worth going again."},
+            {"tag": "img", "url": "assets/images/blog/20201119/takaosan-6.jpg", "alt": "takaosan-6"}
+        ],
+        "link": "",
+        "thumbnail": "assets/images/category/travel.svg"
+    },
+    {
         "id": 1,
         "tag": "restaurant",
         "title": "Nogata Hope Ramen - 1st Experience",
