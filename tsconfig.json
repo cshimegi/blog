@@ -26,10 +26,8 @@
         "@environments/*": ["src/environments/*"]
       },
       "types": [
-      // "jquery",
-      // "lodash",
-        "jasmine",
-      // "d3"
+        "jquery",
+        "jasmine"
       ]
     },
     "angularCompilerOptions": {

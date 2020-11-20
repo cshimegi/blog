@@ -1,1 +1,310 @@
-<p>Comning soon...</p>
+<div class="container" *ngIf="appLang === 'en'">
+  <div class="row about-people">
+    <div class="col-md-12 col-sm-6 col-md-6">
+      <div class="about-person">
+        <div class="row">
+          <div class="col-xs-1">
+              <img src="assets/images/blog/default-face.svg" alt="" class="img-rounded img-responsive selfie" />
+          </div>
+          <div class="col-sm-4 col-md-6 person-info">
+            <div class="basic-info-group">
+              <h4>Eri Kodama</h4>
+              <small class="location">
+                <cite title="San Francisco, USA">Tokyo, Japan
+                  <i class="glyphicon glyphicon-map-marker"></i>
+                </cite>
+              </small>
+            </div>
+
+            <div class="interest-group">
+              <h5 class="title">Interests</h5>
+              <ul class="interest-menu">
+                <li class="interest-item"><span>test1</span></li>
+                <li class="interest-item"><span>test2</span></li>
+              </ul>
+            </div>
+            
+            <div class="contact-group">
+              <h5 class="title">Contact</h5>
+              <div class="email">
+                <span class="btn btn-outline-info btn-sm"
+                      [ngClass]="{'d-flex': isMobile}">Email</span>
+                <a class="link">email@example.com</a>
+              </div>
+              <div class="facebook">
+                <span class="btn btn-outline-primary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">Facebook</span>
+                <a class="link">email@example.com</a>
+              </div>
+              <div class="instgram">
+                <span class="btn btn-outline-secondary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">Instgram</span>
+                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
+              </div>
+            </div>
+            <!-- contact-group -->
+          </div>
+          <!-- col-sm-4 col-md-6 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- about-person -->
+
+      <div class="about-person">
+        <div class="row">
+          <div class="col-xs-1">
+              <img src="assets/images/blog/default-face.svg" alt="" class="img-rounded img-responsive selfie" />
+          </div>
+          <div class="col-sm-4 col-md-6 person-info">
+            <div class="basic-info-group">
+              <h4>Alan Chan</h4>
+              <small class="location">
+                <cite title="San Francisco, USA">Tokyo, Japan
+                  <i class="glyphicon glyphicon-map-marker"></i>
+                </cite>
+              </small>
+            </div>
+
+            <div class="interest-group">
+              <h5 class="title">Interests</h5>
+              <ul class="interest-menu">
+                <li class="interest-item"><span>Mathematica</span></li>
+                <li class="interest-item"><span>Physics</span></li>
+                <li class="interest-item"><span>Computer Science</span></li>
+              </ul>
+            </div>
+            
+            <div class="contact-group">
+              <h5 class="title">Contact</h5>
+              <div class="email">
+                <span class="btn btn-outline-info btn-sm"
+                      [ngClass]="{'d-flex': isMobile}">Email</span>
+                <a class="link">keigohigashino@hotmail.com</a>
+              </div>
+              <div class="facebook">
+                <span class="btn btn-outline-primary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">Facebook</span>
+                <a class="link" href="https://www.facebook.com/chenhao.chan/" target="_blank">Chan Chen Hao</a>
+              </div>
+            </div>
+            <!-- contact-group -->
+          </div>
+          <!-- col-sm-4 col-md-6 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- about-person -->
+
+    </div>
+    <!-- col-md-12 col-sm-6 col-md-6 -->
+  </div>
+  <!-- about-people -->
+</div>
+
+<!--------------------------- ja --------------------------->
+<div class="container" *ngIf="appLang === 'ja'">
+  <div class="row about-people">
+    <div class="col-md-12 col-sm-6 col-md-6">
+      <div class="about-person">
+        <div class="row">
+          <div class="col-xs-1">
+              <img src="assets/images/blog/default-face.svg" alt="" class="img-rounded img-responsive selfie" />
+          </div>
+          <div class="col-sm-4 col-md-6 person-info">
+            <div class="basic-info-group">
+              <h4>児玉惠理</h4>
+              <small class="location">
+                <cite title="日本東京都">日本東京都
+                  <i class="glyphicon glyphicon-map-marker"></i>
+                </cite>
+              </small>
+            </div>
+
+            <div class="interest-group">
+              <h5 class="title">趣味</h5>
+              <ul class="interest-menu">
+                <li class="interest-item"><span>test1</span></li>
+                <li class="interest-item"><span>test2</span></li>
+              </ul>
+            </div>
+            
+            <div class="contact-group">
+              <h5 class="title">コンタクト</h5>
+              <div class="email">
+                <span class="btn btn-outline-info btn-sm"
+                      [ngClass]="{'d-flex': isMobile}">Eメール</span>
+                <a class="link">email@example.com</a>
+              </div>
+              <div class="facebook">
+                <span class="btn btn-outline-primary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">フェースブック</span>
+                <a class="link">email@example.com</a>
+              </div>
+              <div class="instgram">
+                <span class="btn btn-outline-secondary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">インスタグラム</span>
+                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
+              </div>
+            </div>
+            <!-- contact-group -->
+          </div>
+          <!-- col-sm-4 col-md-6 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- about-person -->
+
+      <div class="about-person">
+        <div class="row">
+          <div class="col-xs-1">
+              <img src="assets/images/blog/default-face.svg" alt="" class="img-rounded img-responsive selfie" />
+          </div>
+          <div class="col-sm-4 col-md-6 person-info">
+            <div class="basic-info-group">
+              <h4>Alan Chan</h4>
+              <small class="location">
+                <cite title="日本東京都">日本東京都
+                  <i class="glyphicon glyphicon-map-marker"></i>
+                </cite>
+              </small>
+            </div>
+
+            <div class="interest-group">
+              <h5 class="title">趣味</h5>
+              <ul class="interest-menu">
+                <li class="interest-item"><span>数学</span></li>
+                <li class="interest-item"><span>物理</span></li>
+                <li class="interest-item"><span>コンピューター科学</span></li>
+              </ul>
+            </div>
+            
+            <div class="contact-group">
+              <h5 class="title">コンタクト</h5>
+              <div class="email">
+                <span class="btn btn-outline-info btn-sm"
+                      [ngClass]="{'d-flex': isMobile}">Eメール</span>
+                <a class="link">keigohigashino@hotmail.com</a>
+              </div>
+              <div class="facebook">
+                <span class="btn btn-outline-primary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">フェースブック</span>
+                <a class="link" href="https://www.facebook.com/chenhao.chan/" target="_blank">Chan Chen Hao</a>
+              </div>
+            </div>
+            <!-- contact-group -->
+          </div>
+          <!-- col-sm-4 col-md-6 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- about-person -->
+
+    </div>
+    <!-- col-md-12 col-sm-6 col-md-6 -->
+  </div>
+  <!-- about-people -->
+</div>
+
+<!--------------------------- zh_hant --------------------------->
+<div class="container" *ngIf="appLang === 'zh_hant'">
+  <div class="row about-people">
+    <div class="col-md-12 col-sm-6 col-md-6">
+      <div class="about-person">
+        <div class="row">
+          <div class="col-xs-1">
+              <img src="assets/images/blog/default-face.svg" alt="" class="img-rounded img-responsive selfie" />
+          </div>
+          <div class="col-sm-4 col-md-6 person-info">
+            <div class="basic-info-group">
+              <h4>児玉惠理</h4>
+              <small class="location">
+                <cite title="日本東京">日本東京
+                  <i class="glyphicon glyphicon-map-marker"></i>
+                </cite>
+              </small>
+            </div>
+
+            <div class="interest-group">
+              <h5 class="title">興趣</h5>
+              <ul class="interest-menu">
+                <li class="interest-item"><span>test1</span></li>
+                <li class="interest-item"><span>test2</span></li>
+              </ul>
+            </div>
+            
+            <div class="contact-group">
+              <h5 class="title">聯絡資訊</h5>
+              <div class="email">
+                <span class="btn btn-outline-info btn-sm"
+                      [ngClass]="{'d-flex': isMobile}">電子郵件</span>
+                <a class="link">email@example.com</a>
+              </div>
+              <div class="facebook">
+                <span class="btn btn-outline-primary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">臉書</span>
+                <a class="link">email@example.com</a>
+              </div>
+              <div class="instgram">
+                <span class="btn btn-outline-secondary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">IG</span>
+                <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
+              </div>
+            </div>
+            <!-- contact-group -->
+          </div>
+          <!-- col-sm-4 col-md-6 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- about-person -->
+
+      <div class="about-person">
+        <div class="row">
+          <div class="col-xs-1">
+              <img src="assets/images/blog/default-face.svg" alt="" class="img-rounded img-responsive selfie" />
+          </div>
+          <div class="col-sm-4 col-md-6 person-info">
+            <div class="basic-info-group">
+              <h4>Alan Chan</h4>
+              <small class="location">
+                <cite title="日本東京">日本東京
+                  <i class="glyphicon glyphicon-map-marker"></i>
+                </cite>
+              </small>
+            </div>
+
+            <div class="interest-group">
+              <h5 class="title">興趣</h5>
+              <ul class="interest-menu">
+                <li class="interest-item"><span>數學</span></li>
+                <li class="interest-item"><span>物理</span></li>
+                <li class="interest-item"><span>電腦科学</span></li>
+              </ul>
+            </div>
+            
+            <div class="contact-group">
+              <h5 class="title">聯絡資訊</h5>
+              <div class="email">
+                <span class="btn btn-outline-info btn-sm"
+                      [ngClass]="{'d-flex': isMobile}">電子郵件</span>
+                <a class="link">keigohigashino@hotmail.com</a>
+              </div>
+              <div class="facebook">
+                <span class="btn btn-outline-primary btn-sm"
+                      [ngClass]="{'d-flex': isMobile == true}">臉書</span>
+                <a class="link" href="https://www.facebook.com/chenhao.chan/" target="_blank">Chan Chen Hao</a>
+              </div>
+            </div>
+            <!-- contact-group -->
+          </div>
+          <!-- col-sm-4 col-md-6 -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- about-person -->
+
+    </div>
+    <!-- col-md-12 col-sm-6 col-md-6 -->
+  </div>
+  <!-- about-people -->
+</div>

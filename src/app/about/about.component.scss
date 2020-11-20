@@ -1,0 +1,73 @@
+.glyphicon {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+}
+
+.about-people {
+    margin-top: 50px;
+}
+
+.about-person {
+    background-color: ghostwhite;
+    border: solid 2px aliceblue;
+
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+}
+
+.person-info {
+    div {
+        &:last-child {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.selfie {
+    width: 250px;
+    height: 250px;
+    margin-left: 12.5px;
+}
+
+.location {
+    margin-bottom: 10px;
+}
+
+.contact-group {
+    div {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        span {
+            width: 25%;
+
+            &.d-flex {
+                width: 30%;
+            }
+        }
+
+        a {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+li {
+    &.interest-item {
+        list-style: url("../../assets/images/common/label.svg");
+    }
+
+    span {
+        position: relative;
+        top: -6px;
+    }
+}
