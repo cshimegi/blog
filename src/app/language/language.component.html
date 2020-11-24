@@ -1,6 +1,6 @@
-<div class="bgimg col-md-12 col-sm-6 col-md-6">
+<div class="bgimg col-md-12 col-sm-6 col-md-6" [ngClass]="{'mobile': isMobile == true}">
   <div class="text-center">
-    <h1 class="message">COMING SOON...</h1>
+    <h1 class="message" [ngClass]="{'mobile': isMobile == true}">COMING SOON...</h1>
     <hr>
   </div>
 </div>
