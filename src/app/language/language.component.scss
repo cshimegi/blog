@@ -7,10 +7,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
+
+    &.mobile {
+        width: 350px;
+        height: 250px;
+        min-height: auto;
+    }
 }
 
 .message {
     position: absolute;
     top: 10%;
     right: 10%;
+
+    &.mobile {
+        font-size: 1rem;
+    }
 }

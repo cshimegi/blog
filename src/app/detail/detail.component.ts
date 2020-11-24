@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
-import { SessionService } from '@app/_services_';
+import { SessionService, UtilityService } from '@app/_services_';
 import { HttpClient } from '@angular/common/http';
 import { Blog } from '@app/_models_';
 
@@ -19,7 +19,8 @@ export class DetailComponent implements OnInit {
     constructor(
         private http: HttpClient,
         private route: ActivatedRoute,
-        private sessionService: SessionService
+        private sessionService: SessionService,
+        private utilityService: UtilityService
     ) {
         this.route.params.subscribe(params => this.params = params);
         this._dataId = Number(this.params['id']);
@@ -59,8 +60,8 @@ export class DetailComponent implements OnInit {
                 elem = document.createElement("img");
                 elem.src = line['url'];
                 classes = ['line' + key, 'blog-post-img'];
-                elem.style.width = "450px";
                 elem.style.padding = "30px";
+                elem.style.width = this.utilityService.isMobile() ? "350px" : "450px";
             }
 
             elem.classList.add(...classes);
