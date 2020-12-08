@@ -47,7 +47,8 @@
         "SUBSCRIBE": "訂閱",
         "ABOUT": "關於",
         "TRAVEL": "旅遊",
-        "LANGUAGE": "語言"
+        "LANGUAGE": "語言",
+        "LEARNING": "學習"
     },
     "DROPDOWN": {
         "LANGUAGES": {

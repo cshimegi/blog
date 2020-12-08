@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 
-.blog-catagory-language {
+.blog-catagory-learning {
     position: absolute;
 
     &.en {
@@ -120,11 +120,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.blog-about {
-    // position: absolute;
-    // left: 110px;
-}
-
 .blog-search {
     position: absolute;
     right: 55px;
@@ -148,10 +143,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-translate {
     cursor: pointer;
-
-    &::before {
-        content: url($commonImgPath + 'global_translate.svg');
-    }
 }
 
 .dropdown-menu {
@@ -160,17 +151,17 @@ h1, h2, h3, h4, h5, h6 {
     
     &.en {
         min-width: 120px;
-        left: -95px;
+        left: -15px;
     }
 
     &.ja {
         min-width: 180px;
-        left: -155px;
+        left: -110px;
     }
 
     &.zh_hant {
         min-width: 150px;
-        left: -125px;
+        left: -85px;
     }
 }
 
@@ -189,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.blog-catagory-language {
+.blog-catagory-learning {
     &.active {
         color: dodgerblue !important;
         
@@ -214,18 +205,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-about {
-    // left: 60px;
-
-    &::after {
-        content: url($commonImgPath + 'account_box.svg');
-    }
-
     &.active {
         color: dodgerblue !important;
-        
-        &::before {
-            content: "\2735";
-        }
     }
 }
 
@@ -241,12 +222,5 @@ h1, h2, h3, h4, h5, h6 {
 
     .h-md-250 {
         height: 250px;
-    }
-
-    .blog-subscribe {
-    }
-
-    .blog-about {
-        // left: 60px;
     }
 }

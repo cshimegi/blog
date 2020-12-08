@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { SessionService, UtilityService } from '@app/_services_';
 
 @Component({
-    selector: 'app-language',
-    templateUrl: './language.component.html',
-    styleUrls: ['./language.component.scss']
+    selector: 'app-learning',
+    templateUrl: './learning.component.html',
+    styleUrls: ['./learning.component.scss']
 })
-export class LanguageComponent implements OnInit {
+export class LearningComponent implements OnInit {
     isMobile: boolean;
 
     constructor(
