@@ -47,7 +47,8 @@
         "SUBSCRIBE": "Subscribe",
         "ABOUT": "About",
         "TRAVEL": "Travel",
-        "LANGUAGE": "Language"
+        "LANGUAGE": "Language",
+        "LEARNING": "Learning"
     },
     "DROPDOWN": {
         "LANGUAGES": {

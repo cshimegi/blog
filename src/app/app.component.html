@@ -3,7 +3,9 @@
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
         <!-- <a class="text-muted blog-subscribe" routerLinkActive="active" routerLink="subscribe"></a> -->
-        <a class="text-muted blog-about" routerLinkActive="active" routerLink="about"></a>
+        <a class="text-muted blog-about" routerLinkActive="active" routerLink="about">
+          {{ 'NAVBAR.ABOUT' | translate }}
+        </a>
       </div>
       <div class="col-4 text-center">
         <a class="blog-header-logo text-dark" routerLink="/">C. BloG K.</a>
@@ -11,18 +13,20 @@
       <div class="col-4 d-flex justify-content-end align-items-center">
         <!-- <a class="text-muted blog-search" aria-label="Search"></a> -->
         <div class="dropdown">
-          <a class="text-muted blog-translate" aria-label="Translate" (click)="showLanguageMenus()"></a>
-          <ul id="language-dropdown-menu" class="dropdown-menu" [ngClass]="selectedLang">
-            <li class="dropdown-item" (click)="switchLanguage('ja')">
-              {{ 'DROPDOWN.LANGUAGES.JAPANESE' | translate }}
-            </li>
-            <li class="dropdown-item" (click)="switchLanguage('zh_hant')">
-              {{ 'DROPDOWN.LANGUAGES.ZH_HANT' | translate }}
-            </li>
-            <li class="dropdown-item" (click)="switchLanguage('en')">
-              {{ 'DROPDOWN.LANGUAGES.ENGLISH' | translate }}
-            </li>
-          </ul>
+          <button class="btn btn-secondary dropdown-toggle"
+                  [ngClass]="{'btn-sm': isMobile == true}"
+                  type="button"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false">
+            {{ 'NAVBAR.LANGUAGE' | translate }}
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" [ngClass]="selectedLang">
+            <a class="dropdown-item" (click)="switchLanguage('ja')">{{ 'DROPDOWN.LANGUAGES.JAPANESE' | translate }}</a>
+            <a class="dropdown-item" (click)="switchLanguage('zh_hant')">{{ 'DROPDOWN.LANGUAGES.ZH_HANT' | translate }}</a>
+            <a class="dropdown-item" (click)="switchLanguage('en')">{{ 'DROPDOWN.LANGUAGES.ENGLISH' | translate }}</a>
+          </div>
         </div>
       </div>
     </div>
@@ -33,8 +37,8 @@
       <a class="p-2 text-muted blog-catagory-travel" routerLinkActive="active" routerLink="travel">
         {{ 'NAVBAR.TRAVEL' | translate }}
       </a>
-      <a class="p-2 text-muted blog-catagory-language" [ngClass]="selectedLang" routerLinkActive="active" routerLink="language">
-        {{ 'NAVBAR.LANGUAGE' | translate }}
+      <a class="p-2 text-muted blog-catagory-learning" [ngClass]="selectedLang" routerLinkActive="active" routerLink="learning">
+        {{ 'NAVBAR.LEARNING' | translate }}
       </a>
     </nav>
   </div>

@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 // import { MDCTooltip } from '@material/tooltip'; // Todo: tooltips
 // for i18n
 import { TranslateService } from '@ngx-translate/core';
-import { SessionService } from '@app/_services_';
+import { SessionService, UtilityService } from '@app/_services_';
+import { utils } from 'protractor';
+
+declare var $: any;
 
 @Component({
     selector: 'app-root',
@@ -12,13 +15,22 @@ import { SessionService } from '@app/_services_';
 
 export class AppComponent {
     selectedLang: string = '';
+    isMobile: boolean;
 
     constructor (
         private translateService: TranslateService,
-        private sessionService: SessionService
+        private sessionService: SessionService,
+        private utilityService: UtilityService
     ){
+        this.isMobile = this.utilityService.isMobile();
         let lang = this.sessionService.getData('appLang') ?? window.navigator.language;
         this.setAppLang(lang);
+        
+        $(function () {
+            $('#dropdownMenuButton').on('click touch', function() {
+                $('.dropdown-menu').toggle();
+            });
+        });
     }
 
     /**

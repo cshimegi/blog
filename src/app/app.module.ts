@@ -9,7 +9,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TravelComponent } from '@app/travel';
-import { LanguageComponent } from './language/language.component';
+import { LearningComponent } from './learning/learning.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { AboutComponent } from './about/about.component';
 import { DetailComponent } from './detail/detail.component';
@@ -18,7 +18,7 @@ import { DetailComponent } from './detail/detail.component';
     declarations: [
         AppComponent,
         TravelComponent,
-        LanguageComponent,
+        LearningComponent,
         SubscribeComponent,
         AboutComponent,
         DetailComponent
