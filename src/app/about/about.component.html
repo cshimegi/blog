@@ -119,7 +119,7 @@
               </small>
             </div>
 
-            <div class="interest-group">
+            <div class="interest-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">趣味</h5>
               <ul class="interest-menu">
                 <li class="interest-item"><span>カラオケ</span></li>
@@ -130,16 +130,16 @@
               </ul>
             </div>
             
-            <div class="contact-group">
+            <div class="contact-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">コンタクト</h5>
               <div class="facebook">
                 <span class="btn btn-outline-primary btn-sm"
-                      [ngClass]="{'mobile': isMobile == true}">フェースブック</span>
+                      [ngClass]="[isMobile ? 'mobile' : '', appLang]">フェースブック</span>
                 <a class="link" href="https://www.facebook.com/eri.kodama.900" target="_blank">Eri Kodama</a>
               </div>
               <div class="instgram">
                 <span class="btn btn-outline-secondary btn-sm"
-                      [ngClass]="{'mobile': isMobile == true}">インスタグラム</span>
+                      [ngClass]="[isMobile ? 'mobile' : '', appLang]">インスタグラム</span>
                 <a class="link" href="https://www.instagram.com/huililovetaiwan/" target="_blank">Huili</a>
               </div>
             </div>
@@ -166,7 +166,7 @@
               </small>
             </div>
 
-            <div class="interest-group">
+            <div class="interest-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">趣味</h5>
               <ul class="interest-menu">
                 <li class="interest-item"><span>数学</span></li>
@@ -176,16 +176,16 @@
               </ul>
             </div>
             
-            <div class="contact-group">
+            <div class="contact-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">コンタクト</h5>
               <div class="email">
                 <span class="btn btn-outline-info btn-sm"
-                      [ngClass]="{'mobile': isMobile == true}">Eメール</span>
+                      [ngClass]="[isMobile ? 'mobile' : '', appLang]">Eメール</span>
                 <a class="link">keigohigashino@hotmail.com</a>
               </div>
               <div class="facebook">
                 <span class="btn btn-outline-primary btn-sm"
-                      [ngClass]="{'mobile': isMobile == true}">フェースブック</span>
+                      [ngClass]="[isMobile ? 'mobile' : '', appLang]">フェースブック</span>
                 <a class="link" href="https://www.facebook.com/chenhao.chan/" target="_blank">Chan Chen Hao</a>
               </div>
             </div>
@@ -222,7 +222,7 @@
               </small>
             </div>
 
-            <div class="interest-group">
+            <div class="interest-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">興趣</h5>
               <ul class="interest-menu">
                 <li class="interest-item"><span>唱歌</span></li>
@@ -233,7 +233,7 @@
               </ul>
             </div>
             
-            <div class="contact-group">
+            <div class="contact-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">聯絡資訊</h5>
               <div class="facebook">
                 <span class="btn btn-outline-primary btn-sm"
@@ -269,7 +269,7 @@
               </small>
             </div>
 
-            <div class="interest-group">
+            <div class="interest-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">興趣</h5>
               <ul class="interest-menu">
                 <li class="interest-item"><span>數學</span></li>
@@ -279,7 +279,7 @@
               </ul>
             </div>
             
-            <div class="contact-group">
+            <div class="contact-group" [ngClass]="{'pc': isMobile == false}">
               <h5 class="title">聯絡資訊</h5>
               <div class="email">
                 <span class="btn btn-outline-info btn-sm"

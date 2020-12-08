@@ -12,10 +12,10 @@ export class AboutComponent implements OnInit {
     appLang: string;
 
     constructor(
-        private util: UtilityService,
+        private utilityService: UtilityService,
         private sessionService: SessionService
     ) {
-        this.isMobile = this.util.isMobile();
+        this.isMobile = this.utilityService.isMobile();
         this.appLang = this.sessionService.getData('appLang');
     }
 
