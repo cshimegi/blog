@@ -49,6 +49,10 @@ small {
         span {
             width: 15%;
 
+            &.ja {
+                width: 20%;
+            }
+
             &.mobile {
                 width: 30%;
             }
