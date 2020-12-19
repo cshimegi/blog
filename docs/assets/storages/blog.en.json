@@ -1,5 +1,33 @@
 [
     {
+        "id": 5,
+        "tag": "travel",
+        "title": "Kobe Travel-23rd Day",
+        "date": "2020/11/23 Monday",
+        "introduction": "3-day holiday travel",
+        "content": [
+            {"tag": "p", "text": "It was finally the last day of the trip. We got up early in the morning and went to a shop called Konigs-Krone."},
+            {"tag": "p", "text": "It was too early and the store was still in preparation. We had some time, so we took a walk nearby."},
+            {"tag": "p", "text": "There is a jinjya ⛩ behind the shop, and locals also stopped by on their way to the company to worship. We also visited."},
+            {"tag": "img", "url": "assets/images/blog/20201123/brone-1.jpg", "alt": "brone-1"},
+            {"tag": "img", "url": "assets/images/blog/20201123/brone-2.jpg", "alt": "brone-2"},
+            {"tag": "p", "text": "Then, we finally got into the delicious sweets shop introduced by my friend. Konigs-Krone is not only a sweets shop but also a hotel."},
+            {"tag": "p", "text": "I found that the interior of the room is pretty clean in Internet, but it needs to cost about 15,000 yen per night. I would like to stay if I have the opportunity."},
+            {"tag": "p", "text": "The most popular item in the store is assorted 8 kinds of sweets. It wasn't expensive and it tasted good, so maybe this is why it's popular."},
+            {"tag": "p", "text": "We went to an Akashiyaki specialty store called \"Tachibana\" at about 12 p.m."},
+            {"tag": "p", "text": "The menu here is very easy to understand. Customers seldom order something else but Akashiyaki, so the clerk immediately asked us how many servings when we got into the shop."},
+            {"tag": "p", "text": "At first glance, it looked like takoyaki, and the contents were octopus, but what wrapped the octopus was completely different. It was wrapped in eggs, so it was very healthy and delicious."},
+            {"tag": "img", "url": "assets/images/blog/20201123/akashiyaki-1.jpg", "alt": "akashiyaki-1"},
+            {"tag": "img", "url": "assets/images/blog/20201123/akashiyaki-2.jpg", "alt": "akashiyaki-2"},
+            {"tag": "p", "text": "The next shop was introduced by another friend. It's a fashionable cafe that she used to come when she was a student. The store name is \"Green House\"."},
+            {"tag": "p", "text": "When I arrived at the store, I felt that I knew the origin of the name. It's a shop surrounded by greenery in many business buildings, so it's friendly and I feels like I'm in another world."},
+            {"tag": "img", "url": "assets/images/blog/20201123/green-house.jpg", "alt": "green-house"},
+            {"tag": "p", "text": "The rest of the time we went around for buying some souvenirs😂."}
+        ],
+        "link": "",
+        "thumbnail": "assets/images/category/travel.svg"
+    },
+    {
         "id": 4,
         "tag": "travel",
         "title": "Kobe Travel-2nd Day",

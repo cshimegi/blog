@@ -1,5 +1,33 @@
 [
     {
+        "id": 5,
+        "tag": "travel",
+        "title": "神戶之旅-第三天",
+        "date": "2020年11月23日（一）",
+        "introduction": "日本三連假之旅",
+        "content": [
+            {"tag": "p", "text": "終於到了三連假的最後一天了。我們一早起床出發去一家名為Konigs-Krone的店。"},
+            {"tag": "p", "text": "由於提早抵達，所以店家還在準備作業中。不過，距離開始營業時間不算太久，所以我們就在附近散步了一下。"},
+            {"tag": "p", "text": "在這家店的後面有一座神社⛩，當地的人在上班途中也會進來參拜。我們也在此稍作參拜。"},
+            {"tag": "img", "url": "assets/images/blog/20201123/brone-1.jpg", "alt": "brone-1"},
+            {"tag": "img", "url": "assets/images/blog/20201123/brone-2.jpg", "alt": "brone-2"},
+            {"tag": "p", "text": "我們終於進入了朋友介紹的這家當地有名的美味糕點店了。Konigs-Krone不僅只是家販賣糕點的店，而且還是一家旅館。"},
+            {"tag": "p", "text": "好奇心的驅使下，稍微調查了一下旅館的資訊。房間的裝潢相當漂亮，但是住一晚需要約15000日幣。如果有機會的話，想住一晚看看。"},
+            {"tag": "p", "text": "店裡的人氣商品是任意8種裝袋點心。因為比起其他商品價格不高，而且好吃，或許這就是該人氣商品有名的原因。"},
+            {"tag": "p", "text": "在接近中午的時候，我們去朋友介紹的一家名叫Tachibana的明石燒店。"},
+            {"tag": "p", "text": "這家店的菜單非常簡單。通常來這的客人除了明石燒以外的菜單都不會點，所以進了店家之後店員馬上就問需要幾人份(明石燒)。"},
+            {"tag": "p", "text": "明石燒的內餡是章魚，而且表面上看起來很像章魚燒，但是包覆內餡的食材完全不一樣。因為用的是雞蛋，所以吃起來非常健康且美味。"},
+            {"tag": "img", "url": "assets/images/blog/20201123/akashiyaki-1.jpg", "alt": "akashiyaki-1"},
+            {"tag": "img", "url": "assets/images/blog/20201123/akashiyaki-2.jpg", "alt": "akashiyaki-2"},
+            {"tag": "p", "text": "接著我們又去另一家朋友介紹的咖啡店，店名為Green House。這是朋友在學生時代常來的一家華麗的咖啡店。"},
+            {"tag": "p", "text": "抵達店家之後，馬上就意會到店名的由來了。在許多辦公大樓中，這是家綠色建築的店，感覺對於環境非常良好，而且感覺就像身處在不同的世界一樣。"},
+            {"tag": "img", "url": "assets/images/blog/20201123/green-house.jpg", "alt": "green-house"},
+            {"tag": "p", "text": "距離搭車之前還剩下一些時間，為了買一些土產，我們到處跑來跑去😂。"}
+        ],
+        "link": "",
+        "thumbnail": "assets/images/category/travel.svg"
+    },
+    {
         "id": 4,
         "tag": "travel",
         "title": "神戶之旅-第二天",
