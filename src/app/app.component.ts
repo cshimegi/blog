@@ -1,9 +1,8 @@
-import { Component } from '@angular/core';
-// import { MDCTooltip } from '@material/tooltip'; // Todo: tooltips
+import { Component, Output, EventEmitter } from '@angular/core';
 // for i18n
 import { TranslateService } from '@ngx-translate/core';
 import { SessionService, UtilityService } from '@app/_services_';
-import { utils } from 'protractor';
+import { ThemePalette } from '@angular/material/core';
 
 declare var $: any;
 
@@ -14,8 +13,11 @@ declare var $: any;
 })
 
 export class AppComponent {
+    @Output() sidenavClose = new EventEmitter();
+    background: ThemePalette = 'primary';
     selectedLang: string = '';
     isMobile: boolean;
+    thisYear: number = new Date().getFullYear();
 
     constructor (
         private translateService: TranslateService,
@@ -84,4 +86,8 @@ export class AppComponent {
         window.location.reload();
     }
 
+    onSidenavClose (): void
+    {
+        this.sidenavClose.emit();
+    }
 }

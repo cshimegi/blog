@@ -62,6 +62,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 250px;
 }
 
+.nav-bar {
+    margin-bottom: 10px;
+}
+
 /*
 * Blog posts
 */
@@ -135,85 +139,14 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
-#language-dropdown-menu {
-    &.show {
-        display: block;
-    }
-}
-
 .blog-translate {
     cursor: pointer;
-}
-
-.dropdown-menu {
-    width: 10px;
-    padding-left: 5px;
-    
-    &.en {
-        min-width: 120px;
-        left: -15px;
-    }
-
-    &.ja {
-        min-width: 180px;
-        left: -110px;
-    }
-
-    &.zh_hant {
-        min-width: 150px;
-        left: -85px;
-    }
-}
-
-.dropdown-item {
-    padding-left: 5px;
-    cursor: pointer;
-}
-
-.blog-catagory-travel {
-    &.active {
-        color: dodgerblue !important;
-
-        &::before {
-            content: "\261B";
-        }
-    }
-}
-
-.blog-catagory-learning {
-    &.active {
-        color: dodgerblue !important;
-        
-        &::before {
-            content: "\261B";
-        }
-    }
-}
-
-.blog-subscribe {
-    &::after {
-        content: url($commonImgPath + 'email.svg');
-    }
-
-    &.active {
-        color: dodgerblue !important;
-        
-        &::before {
-            content: "\2735";
-        }
-    }
-}
-
-.blog-about {
-    &.active {
-        color: dodgerblue !important;
-    }
 }
 
 // Extra small devices
 @media (max-width: 575.98px) {
     .blog-header-logo {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .display-4 {

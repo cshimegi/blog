@@ -1,11 +1,16 @@
 <main role="main" class="container">
 
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+  <div class="jumbotron p-4 p-md-5 rounded shadow">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic newest-blog-title">{{newestBlog.title}}</h1>
-      <p class="lead my-3 newest-blog-introduction">{{newestBlog.introduction}}</p>
+      <h1 class="display-4 font-italic newest-blog-title">
+        {{newestBlog.title}}
+      </h1>
+      <p class="lead my-3 newest-blog-introduction">
+        {{newestBlog.introduction}}
+      </p>
       <p class="lead mb-0">
-        <a (click)="directToDetail(newestBlog.id)" class="text-white font-weight-bold blog-link">
+        <a (click)="directToDetail(newestBlog.id)"
+           class="font-weight-bold blog-link">
           {{ 'LINK.CONTINUE_READ' | translate }}
         </a>
       </p>
@@ -15,16 +20,19 @@
   <div class="row mb-2">
   
     <div class="col-md-6" *ngFor="let blog of blogs">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative shadow"
+           [ngClass]="['blog-' + blog.tag + '-background']">
         <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary blog-tag">{{blog.tag | uppercase}}</strong>
+          <strong class="d-inline-block mb-2 text-primary blog-tag">
+            {{blog.tag | uppercase}}
+          </strong>
           <h3 class="mb-0 blog-title">{{blog.title}}</h3>
-          <div class="mb-1 text-muted blog-date">{{blog.date}}</div>
-          <p class="card-text mb-auto blog-introduction">{{blog.introduction}}</p>
-          <a (click)="directToDetail(blog.id)" class="stretched-link blog-link">{{ 'LINK.CONTINUE_READ' | translate }}</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <img class="blog-thumbnail" src="{{blog.thumbnail}}">
+          <div class="mb-1 text-white blog-date">{{blog.date}}</div>
+          <p class="card-text mb-auto text-white blog-introduction">{{blog.introduction}}</p>
+          <a (click)="directToDetail(blog.id)"
+             class="stretched-link blog-link">
+            {{ 'LINK.CONTINUE_READ' | translate }}
+          </a>
         </div>
       </div>
     </div>
