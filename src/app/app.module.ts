@@ -14,6 +14,10 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
 import { AboutComponent } from './about/about.component';
 import { DetailComponent } from './detail/detail.component';
 
+// material modules
+import { MATERIAL_MODULES } from './material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -34,6 +38,8 @@ import { DetailComponent } from './detail/detail.component';
                 deps: [HttpClient]
             }
         }),
+        BrowserAnimationsModule,
+        ...MATERIAL_MODULES
     ],
     providers: [],
     bootstrap: [

@@ -12,3 +12,23 @@
 .blog-link {
     cursor: pointer;
 }
+.jumbotron {
+    background-image: url("../../assets/images/common/wood-balcony.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+.blog-travel-background,
+.blog-trip-background {
+    background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("../../assets/images/common/travel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-restaurant-background {
+    background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url("../../assets/images/common/restaurant.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
